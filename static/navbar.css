@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+#my {
+    zoom: 50%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+    flex-wrap: wrap;
+}
+
+.logo {
+    cursor: pointer;
+    height: 40px;
+    max-height: 40px;
+    width: 500px;
+    transform: translate(-100px);
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    transform: translate(-100px);
+  }
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+.bob {
+    float: left;
+    width: 33.33%;
+    padding: 1px;
+}
+
+.billy::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+@media screen and (max-width: 640px) {
+    .logo {
+        width: 250px;
+    }
+    li, a, button {
+        font-size: 15px;
+    }
+    button {
+        padding: 6px 9px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    header {
+        justify-content: center;
+    }
+    .logo {
+        transform: revert;
+        transform: translate(220px);
+    }
+    nav ul {
+        transform: revert;
+        transform: translate(-250px, 50px);
+    }
+    button {
+        transform: translate(0px, 60px);
+    }
+}
+
+@media screen and (max-width: 1146px) {
+    .logo {
+        transform: revert;
+        transform: translate(25px);
+    }
+    nav ul {
+        transform: revert;
+        transform: translate(100px);
+
+    }
+    button {
+        transform: revert;
+        transform: translate(-200px, 60px);
+    }
+}
+
+@media screen and (max-width: 734px) {
+    .logo {
+        transform: revert;
+        transform: translate(0px);
+    }
+    nav ul {
+        transform: revert;
+        transform: translate(0px);
+
+    }
+    button {
+        transform: revert;
+        transform: translate(0px, 5px);
+    }
+}

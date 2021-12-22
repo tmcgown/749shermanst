@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.parent_text {
+    position: relative;
+    text-align: center;
+}
+
+.homepage_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    transform: translate(250px, 500px);
+    text-align: center;
+    
+}
+
+h1 {
+    font-style: bold;
+    transform: translate(0, -500px);
+    font-size: 50px;
+}
+
+p {
+    font-size: 50px !important;
+}
+
+p, .btn {
+    transform: translate(0, -200px);
+}
+
+.btn {
+    color: black;
+    display: inline-block;
+
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .7rem 1.5rem;
+    font-size: 1.9rem;
+    border-radius: .3rem;
+}
+
+
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: black;
+}
+
+.btn-secondary:hover {
+    color: black;
+}
+
+@media screen and (max-width: 1086px) {
+    .homepage_text {
+        display: block;
+        transform: revert;
+        transform: translate(25%, 170%)
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .homepage_text {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 20px;
+        padding: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1360px) {
+    .homepage_text {
+        display: block;
+        transform: revert;
+        transform: translate(25%, 170%)
+    }
+
+}
+
+@media screen and (max-width: 766px) {
+    .homepage_text {
+        display: block;
+        transform: revert;
+        transform: translate(2%, 170%)
+    }
+
+}

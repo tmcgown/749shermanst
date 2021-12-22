@@ -1,0 +1,21 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    white-space: nowrap;
+}
+.row\ align-items-center {
+    column-count: 2;
+}
+.form-page_title {
+    font-size: 50px;
+    text-align: center;
+    transform: translate(250px, 50px);
+
+}
+.col {
+    font-size: 30px;
+    transform: translate(275px)
+}
+.col a {
+    text-align: center;
+}

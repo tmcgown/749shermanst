@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+     {% block content %}
+
+<h2>Ridgeway Rental House</h2> 
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='gallery.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lightbox.min.css') }}"> 
+<script src="{{ url_for('static', filename='lightbox-plus-jquery.min.js') }}"></script>
+     <div class="gallery">
+               <a href="static/IMG_5338.jpg" data-lightbox="mygallery"><img src="static/IMG_5338.jpg"></a>
+               <a href="static/IMG_5333.jpg" data-lightbox="mygallery"><img src="static/IMG_5333.jpg" alt="Chicago"></a>
+               <a href="static/IMG_5335.jpg" data-lightbox="mygallery"><img src="static/IMG_5335.jpg" alt="New york"></a>
+               <a href="static/IMG_5336.jpg" data-lightbox="mygallery"><img src="static/IMG_5336.jpg" alt="New york"></a>
+     </div>
+     <div class="gallery2">
+               <a href="static/IMG_5334.jpg" data-lightbox="mygallery"><img src="static/IMG_5334.jpg" alt="New york"></a>
+               <a href="static/IMG_8750.jpg" data-lightbox="mygallery"><img src="static/IMG_8750.jpg" alt="New york"></a>
+               <a href="static/IMG_8751.jpg" data-lightbox="mygallery"><img src="static/IMG_8751.jpg" alt="New york"></a>
+               <a href="static/IMG_8766.jpg" data-lightbox="mygallery"><img src="static/IMG_8766.jpg" alt="New york"></a>
+     </div>
+</body>
+</html>
+{% endblock content %}

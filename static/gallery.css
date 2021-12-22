@@ -1,0 +1,26 @@
+.gallery {
+    margin: 10px 50px;
+    transform: translate(-500px);
+}
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 300px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.gallery2 {
+    margin: 10px 50px;
+    transform: translate(1000px, -479px);
+}
+.gallery2 img {
+    transition: 1s;
+    padding: 15px;
+    width: 300px;
+}
+.gallery2 img:hover {
+    transform: scale(1.1);
+}
