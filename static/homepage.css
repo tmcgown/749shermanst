@@ -87,7 +87,8 @@ p, .btn {
     .homepage_text {
         display: block;
         transform: revert;
-        transform: translate(2%, 170%)
+        transform: translate(2%, 50%)
     }
 
 }
+
