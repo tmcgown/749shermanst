@@ -4,7 +4,7 @@
 <h1>About The Rental House</h1>
 <p>This newly-constructed, custom-built 3 Bedroom, 2 Bathroom home is central to everything the town of Ridgway has to offer. Located in downtown Ridgway, this home provides ideal access to one of a kind dining experiences, local festivals and farmers’ markets and iconic mountain landscapes. Walk to restaurants, the town park, and shops in the town of Ridgway or bike to Ridgway State Park and the RAT mountain biking trails. 
             The home is pet-friendly (2 pet max) and the pet fee is $40/day (max $250)</p>
-<a href="" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Purchase</a>
+<a href="{{ url_for('rentaloptions') }}" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Lease</a>
         <a href="{{ url_for('contacts') }}" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Contact</a>
 <style>
     h1 {
@@ -24,7 +24,7 @@
     .btn {
         color: black;
         display: inline-block;
-        transform: translate(440px, 200px)
+        transform: translate(470px, 200px)
 
     }
     .btn-group-lg>.btn, .btn-lg {

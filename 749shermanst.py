@@ -34,7 +34,12 @@ def reviews():
 
 @app.route("/contacts")
 def contacts():
-    return render_template ('contacts.html')
+    return render_template('contacts.html')
+
+
+@app.route("/rentaloptions")
+def rentaloptions():
+    return render_template('rentaloptions.html', title='Rent')
 
 if __name__ == '__main__':
     app.run(debug=True)
